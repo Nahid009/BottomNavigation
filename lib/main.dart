@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_basic/HomeScreen.dart';
+import 'package:flutter_basic/RounderCorderBottomNav.dart';
 
 import 'HomeScreenTwo.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreenTwo(),
+      home: HomeScreenThree(),
     );
   }
 }
